@@ -1,0 +1,97 @@
+NO,True Label,Predicted Label,TP,TN,FP,FN
+1,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+2,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+3,Melakukan Gerakan Berat,Melakukan Gerakan Berat,1,0,0,0
+4,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+5,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+6,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+7,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+8,Melakukan Gerakan Berat,Melakukan Gerakan Berat,1,0,0,0
+9,Terjatuh,Terjatuh,1,0,0,0
+10,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+11,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+12,Terjatuh,Terjatuh,1,0,0,0
+13,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+14,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+15,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+16,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+17,Terjatuh,Terjatuh,1,0,0,0
+18,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+19,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+20,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+21,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+22,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+23,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+24,Melakukan Gerakan Berat,Melakukan Gerakan Berat,1,0,0,0
+25,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+26,Terjatuh,Terjatuh,1,0,0,0
+27,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+28,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Suhu Ekstrem ,0,0,0,1
+29,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+30,Terjatuh,Paparan/Kontak dengan Suhu Ekstrem ,0,0,0,1
+31,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+32,Terjatuh,Terjatuh,1,0,0,0
+33,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+34,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+35,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+36,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+37,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+38,Terjatuh,Terjatuh,1,0,0,0
+39,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+40,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+41,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+42,Terjatuh,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",0,0,0,1
+43,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+44,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+45,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+46,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+47,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+48,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+49,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+50,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+51,Terjatuh,Melakukan Gerakan Berat,0,0,0,1
+52,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+53,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+54,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+55,Melakukan Gerakan Berat,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",0,0,0,1
+56,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+57,Tertimpa Benda-Benda Jatuh,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",0,0,0,1
+58,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+59,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+60,Terjatuh,Melakukan Gerakan Berat,0,0,0,1
+61,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+62,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+63,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+64,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+65,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+66,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+67,Terjatuh,Terjatuh,1,0,0,0
+68,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+69,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+70,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+71,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+72,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+73,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+74,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+75,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+76,Melakukan Gerakan Berat,Melakukan Gerakan Berat,1,0,0,0
+77,Terjatuh,Terjatuh,1,0,0,0
+78,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
+79,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+80,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
+81,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+82,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+83,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+84,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
+85,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,0,0,0,1
+86,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+87,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+88,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Suhu Ekstrem ,0,0,0,1
+89,Terjatuh,Terjatuh,1,0,0,0
+90,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+91,Melakukan Gerakan Berat,Melakukan Gerakan Berat,1,0,0,0
+92,Terjatuh,Terjatuh,1,0,0,0
+93,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
+94,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
+95,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
+96,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
