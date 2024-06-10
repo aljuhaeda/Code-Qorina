@@ -7,7 +7,7 @@ import nltk
 
 # Unduh stopwords dan 'punkt' jika belum diunduh
 nltk.download('stopwords')
-nltk.download('punkt')  # Tambahkan ini untuk memastikan 'punkt' diunduh untuk tokenization
+nltk.download('punkt')
 
 # Membuat stopword list sekali saja
 stopword_list = set(stopwords.words('indonesian'))

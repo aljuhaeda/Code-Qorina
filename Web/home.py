@@ -2,18 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from utils import preprocess_text, load_pickle
-
-def show_home():
-    import streamlit as st
-import pandas as pd
-import numpy as np
-from utils import preprocess_text, load_pickle
+import os
 
 def show_home():
     # Judul dan Deskripsi
     st.title(":construction_worker: Klasifikasi Kecelakaan Kerja pada Berita Online Menggunakaan Multinomial Naive Bayes.")
     multi = """
-        Aplikasi web sederhana untuk mengklasifikasikan teks berita kecelakaan kerja sesuai ketentuan ILO (International Labour Organization) menggunakan metode Multinomial Naive Bayes., oleh :blue-background[Qorina Setyaningrum]. &mdash; :factory::hospital:
+        Aplikasi web sederhana untuk mengklasifikasikan teks berita kecelakaan kerja sesuai ketentuan ILO (International Labour Organization) menggunakan metode Multinomial Naive Bayes, oleh :blue-background[Qorina Setyaningrum]. &mdash; :factory::hospital:
     """
     st.write(multi)
 
@@ -27,14 +22,19 @@ def show_home():
             # Preprocessing
             preprocessed = preprocess_text(input_text)
 
+            # Build absolute paths
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            tfidf_vectorizer_path = os.path.join(base_dir, '../Model/pickle_files/tfidf_vectorizer.pkl')
+            mnb_model_path = os.path.join(base_dir, '../Model/pickle_files/mnb_model.pkl')
+
             # Load TF-IDF Vectorizer
-            tfidf_vectorizer = load_pickle('../Model/pickle_files/tfidf_vectorizer.pkl')
+            tfidf_vectorizer = load_pickle(tfidf_vectorizer_path)
             
             # Transform input text
             input_tfidf = tfidf_vectorizer.transform([preprocessed["processed_text"]])
             
             # Load Trained Model
-            model = load_pickle('../Model/pickle_files/mnb_model.pkl')
+            model = load_pickle(mnb_model_path)
             
             # Predict
             prediction = model.predict(input_tfidf)[0]
@@ -99,3 +99,5 @@ def show_home():
                 for label, proba in zip(class_labels, pred_proba):
                     st.write(f"{label}: {proba:.4f}")
 
+if __name__ == "__main__":
+    show_home()
