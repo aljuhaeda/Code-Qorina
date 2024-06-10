@@ -5,8 +5,9 @@ from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import nltk
 
-# Unduh stopwords jika belum diunduh
+# Unduh stopwords dan 'punkt' jika belum diunduh
 nltk.download('stopwords')
+nltk.download('punkt')  # Tambahkan ini untuk memastikan 'punkt' diunduh untuk tokenization
 
 # Membuat stopword list sekali saja
 stopword_list = set(stopwords.words('indonesian'))
