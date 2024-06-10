@@ -5,6 +5,7 @@ from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import nltk
 
+# Unduh stopwords jika belum diunduh
 nltk.download('stopwords')
 
 # Membuat stopword list sekali saja
@@ -16,10 +17,12 @@ factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 
 def load_pickle(file_path):
+    """Memuat objek dari file pickle."""
     with open(file_path, 'rb') as f:
         return pickle.load(f)
 
 def cleaning(text):
+    """Membersihkan teks dengan menghapus hashtag, karakter setelah apostrof, angka, spasi berlebih, tanda baca, dan karakter tunggal."""
     text = re.sub(r'#\S+', '', text)  # Menghapus hashtag
     text = re.sub(r'\'\w+', '', text)  # Menghapus karakter setelah apostrof
     text = re.sub(r'\w*\d+\w*', '', text)  # Menghapus angka
@@ -29,18 +32,23 @@ def cleaning(text):
     return text.strip()
 
 def case_folding(text):
+    """Mengubah teks menjadi huruf kecil semua."""
     return text.lower()
 
 def tokenize(text):
+    """Memecah teks menjadi token-token kata."""
     return word_tokenize(text)
 
 def remove_stopwords(tokens):
+    """Menghapus stopwords dari token-token."""
     return [word for word in tokens if word.lower() not in stopword_list]
 
 def stemming_text(tokens):
+    """Melakukan stemming pada token-token."""
     return [stemmer.stem(token) for token in tokens]
 
 def preprocess_text(text):
+    """Melakukan preprocessing lengkap pada teks: cleaning, case folding, tokenizing, remove stopwords, dan stemming."""
     cleaned = cleaning(text)
     case_folded = case_folding(cleaned)
     tokenized = tokenize(case_folded)
