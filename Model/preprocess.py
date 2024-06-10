@@ -43,3 +43,19 @@ def preprocess_dataframe(df, text_column, label_column):
     df['stemming'] = df['remove_stopwords'].apply(stemming_text)
     df['processed_text'] = df['stemming'].apply(lambda x: ' '.join(x))
     return df[[text_column, label_column, 'cleaning', 'case_folding', 'tokenize', 'remove_stopwords', 'stemming', 'processed_text']]
+
+def preprocess_text(text):
+    cleaned = cleaning(text)
+    case_folded = case_folding(cleaned)
+    tokenized = tokenize(case_folded)
+    no_stopwords = remove_stopwords(tokenized)
+    stemmed = stemming_text(no_stopwords)
+    processed_text = ' '.join(stemmed)
+    return {
+        "Cleaning": cleaned,
+        "CaseFolding": case_folded,
+        "Tokenize": tokenized,
+        "RemoveStopwords": no_stopwords,
+        "Stemming": stemmed,
+        "processed_text": processed_text
+    }
