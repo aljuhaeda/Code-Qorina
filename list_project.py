@@ -20,5 +20,5 @@ def print_directory_contents(path, level=0):
         print(f"{prefix}|-- [FileNotFoundError] {e}")
 
 # Ganti 'your_project_directory' dengan path direktori proyek Anda yang sebenarnya
-project_directory = 'C:\\Code Qorina'
+project_directory = 'C:\\coba stopwords'
 print_directory_contents(project_directory)

@@ -40,7 +40,7 @@ NO,True Label,Predicted Label,TP,TN,FP,FN
 168,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
 916,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh","Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",1,0,0,0
 529,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
-39,Terjatuh,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",0,0,0,1
+39,Terjatuh,Terjatuh,1,0,0,0
 662,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
 649,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
 158,Tertimpa Benda-Benda Jatuh,Tertimpa Benda-Benda Jatuh,1,0,0,0
@@ -55,7 +55,7 @@ NO,True Label,Predicted Label,TP,TN,FP,FN
 298,Terperangkap di dalam atau diantara benda-benda,Terperangkap di dalam atau diantara benda-benda,1,0,0,0
 439,Melakukan Gerakan Berat,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",0,0,0,1
 523,Paparan/Kontak dengan Suhu Ekstrem ,Paparan/Kontak dengan Suhu Ekstrem ,1,0,0,0
-139,Tertimpa Benda-Benda Jatuh,"Menginjak, Menabrak, atau Tertimpa Benda, kecuali Benda yang Jatuh",0,0,0,1
+139,Tertimpa Benda-Benda Jatuh,Terjatuh,0,0,0,1
 705,Kontak dengan Arus Listrik,Kontak dengan Arus Listrik,1,0,0,0
 667,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,Paparan/Kontak dengan Zat atau Radiasi Berbahaya,1,0,0,0
 76,Terjatuh,Melakukan Gerakan Berat,0,0,0,1
