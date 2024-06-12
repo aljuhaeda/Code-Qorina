@@ -3,7 +3,7 @@ import pandas as pd
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import nltk
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory  # Import Sastrawi Stemmer
+from custom_stemming import custom_stemming  # Import custom stemming function
 
 nltk.download('stopwords')
 
@@ -30,9 +30,7 @@ def remove_stopwords(tokens):
     return [word for word in tokens if word.lower() not in stopword_list]
 
 def stemming_text(tokens):
-    factory = StemmerFactory()
-    stemmer = factory.create_stemmer()
-    return [stemmer.stem(token) for token in tokens]
+    return [custom_stemming(token) for token in tokens]
 
 def preprocess_dataframe(df, text_column, label_column):
     df['Cleaning'] = df[text_column].apply(cleaning)
